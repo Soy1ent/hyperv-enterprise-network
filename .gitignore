@@ -416,3 +416,22 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Hyper-V Virtual Hard Disks
+*.vhd
+*.vhdx
+*.avhd
+*.avhdx
+
+# Hyper-V Snapshots/Checkpoints
+*.vmrs
+*.bin
+*.vsv
+
+# ISO files
+*.iso
+
+# Credentials
+*secret*
+*password*
+.env
